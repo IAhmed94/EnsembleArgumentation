@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
+# In[38]:
 
 
 import pandas as pd
@@ -13,7 +13,7 @@ from sklearn.metrics import classification_report
 
 
 ## Load the sample data sets
-dataset = pd.read_csv("C:/Users/Istiak/Desktop/Research/testdata.csv")
+dataset = pd.read_csv("C:/Users/Istiak/Desktop/Research/test.csv")
 
 ## Where X is the independent data sets and y is the dependent data sets.
 ## y depends on the X. y is also called the class label.
@@ -134,7 +134,7 @@ for cmp in comp:
                         print(int(y_pred_class[i]),'Undecided')
                     elif accuracy_class < 0.5:
                         print(int(y_pred_class[i]),'Unaccepted')
-                arg = y_pred_class[i].insert()
+               # arg = int(y_pred_class[i]).insert()
             break
     
      
@@ -149,7 +149,7 @@ for cmp in comp:
                         print(int(y_pred_reg[i]),'Undecided')
                     elif accuracy_class < 0.5:
                         print(int(y_pred_reg[i]),'Unaccepted')
-                arg = y_pred_class[i].insert()
+               # arg = int(y_pred_class[i]).insert()
             break
             
 for cmp in comp:
@@ -183,8 +183,8 @@ plt.plot(x1,"b-*", label='DTC')
 plt.plot(y1,"r-h", label='DTR')
 plt.legend(loc=4)
 plt.show() 
-plt.plot(arg,"g-*",label='PAF')
-plt.legend(loc='best')
+#plt.plot(arg,"g-*",label='PAF')
+#plt.legend(loc='best')
  
 
 
@@ -194,6 +194,54 @@ plt.legend(loc='best')
 
 
     
+
+
+# In[ ]:
+
+
+
+
+
+# In[ ]:
+
+
+
+
+
+# In[ ]:
+
+
+
+
+
+# In[ ]:
+
+
+
+
+
+# In[ ]:
+
+
+
+
+
+# In[ ]:
+
+
+
+
+
+# In[ ]:
+
+
+
+
+
+# In[ ]:
+
+
+
 
 
 # In[ ]:
